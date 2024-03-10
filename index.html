@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask blog app</title>
+  <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <img src="logo.jpg">
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+    <div class="buttons">
+      <button id="ask">Ask / Write</button>
+      <button id="login-button">LogIn</button>
+      <div id="profile-details">
+        <span id="user-display-name"></span>
+        <button id="logout">Logout</button>
+      </div>
+    </div>
+  </nav>
+  <!-- Blogs -->
+  <section class="container">
+    <div class="blogs">
+      <img src="blog.png">
+      <!-- <h2>My Feed</h2> -->
+      <table id="list-container">
+        <!-- saray blogs idhr ajayengy -->
+      </table>
+    </div>
+  </section>
+  <script src="js\index.js" type="module"></script>
+  <script src="js\status.js" type="module"></script>
+  <script src="js\data.js" type="module"></script>
+</body>
+
+</html>

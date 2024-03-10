@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn / SignUp</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <section>
+        <div class="image">
+            <img src="blog.png">
+        </div>
+        <div class="content">
+            <div class="form">
+                <h2>LogIn</h2>
+                <!-- <form action="#"> -->
+                    <div class="input">
+                        <span>Username</span>
+                        <input type="email" id="input-email" required>
+                    </div>
+                    <div class="input" >
+                        <span>Password</span>
+                        <input type="password" id="input-password" required>
+                    </div>
+                    <div class="remember-me">
+                        <label>
+                            <input type="checkbox">Remember me?
+                        </label>
+                    </div>
+                    <div class="input" id="login" >
+                        <input type="submit" value="LogIn" id="submit-button">
+                    </div>
+                    <div class="input">
+                        <p>Don't have an account?<a href="reg.html">Create one.</a></p>
+                    </div>
+                    <!-- Google SignIn Button with Icon -->
+                    <div class="input">
+                        <button id="google-login-btn" class="google-button">
+                            <i class="fab fa-google"></i>Login with Google
+                        </button>
+                    </div>
+                <!-- </form> -->
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js\firebase.js" type="module"></script>
+</body>
+
+</html>

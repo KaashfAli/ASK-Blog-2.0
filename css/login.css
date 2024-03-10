@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex; /* Center the content horizontally */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  section {
+    background-color: #fff; /* White background for content area */
+    padding: 30px;
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+  }
+  
+  img{
+    height: 110%;
+    width: 80%;
+    size: 50%;
+  }
+  
+  .image {
+    flex: 1; /* Take up half the space */
+    text-align: center; /* Center any content inside */
+  }
+  
+  .content {
+    flex: 1; /* Take up half the space */
+  }
+  
+  /* Login Form Styles */
+  .form {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8; /* Light gray background for form */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for form */
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input {
+    margin-bottom: 15px;
+  }
+  
+  .input span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input input,
+  .input button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .input input[type="text"],
+  .input input[type="password"] {
+    background-color: #fafafa; /* Light gray input background */
+  }
+  
+  .remember-me {
+    text-align: left;
+  }
+  
+  .remember-me label {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  #submit-button {
+    background-color: #3498db; /* Blue button color */
+    color: #fff; /* White button text */
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .google-button {
+    background-color: #ea4335; /* Red button color (Google) */
+    color: #fff; /* White button text */
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above Google button */
+  }
+  
+  .google-button i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  

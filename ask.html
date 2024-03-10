@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog or Ask Question</title>
+    <link rel="stylesheet" href="css\ask.css">
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+        <button id="logout">Logout</button>
+    </header>
+    <main>
+        <h1>Create Blog Or Ask Question</h1>
+        <!-- <form action="#"> -->
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter Title">
+            </div>
+            <div class="form-group">
+                <label for="category">Select Category:</label>
+                <select name="category" id="category">
+                    <option value="javascript">Javascript</option>
+                    <option value="html">Html</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="type">Select Type:</label>
+                <select name="type" id="type">
+                    <option value="blog">Blog</option>
+                    <option value="question">Question</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="status">Select Status:</label>
+                <select name="status" id="status">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button-group">
+                <button type="submit" id="post_btn">Save</button>
+                <button type="reset" id="Cancel">Cancel</button>
+            </div>
+        <!-- </form> -->
+    </main>
+    <script src="js\ask.js" type="module"></script>
+</body>
+</html>
